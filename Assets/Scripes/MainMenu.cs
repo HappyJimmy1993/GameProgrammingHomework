@@ -37,6 +37,10 @@ public class MainMenu : MonoBehaviour {
 		{
 			Application.LoadLevel("HW3");
 		}
+		if (GUI.Button(new Rect(width * (float)0.28, height * (float)0.45, width * (float)0.44, height * (float)0.1), "Homework4_粒子系统与光影特效")) 
+		{
+			Application.LoadLevel("HW4");
+		}
 	}
 		
 
