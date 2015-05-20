@@ -41,6 +41,10 @@ public class MainMenu : MonoBehaviour {
 		{
 			Application.LoadLevel("HW4");
 		}
+		if (GUI.Button(new Rect(width * (float)0.28, height * (float)0.56, width * (float)0.44, height * (float)0.1), "Homework5_自定义特效Shader")) 
+		{
+			Application.LoadLevel("HW5");
+		}
 	}
 		
 
